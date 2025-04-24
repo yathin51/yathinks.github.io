@@ -113,3 +113,10 @@ nav a {
 nav a:hover {
     background-color: #0056b3;
 }
+
+/* Icon Styling */
+.icon {
+  width: 40px; /* Set the width of the icon */
+  height: 40px; /* Set the height of the icon */
+  margin: 10px; /* Add some spacing around the icon */
+}
