@@ -1,30 +1,32 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.skills-section {
+    margin-bottom: 30px;
+}
+
+.skills-section h2 {
     color: #333;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-section {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+.skills-list div {
+    text-align: center;
+    width: 120px;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.skills-list img {
+    max-width: 100px;
+    height: auto;
 }

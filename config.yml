@@ -3,4 +3,3 @@ description: A blog about technology, travel, and life experiences.
 author: Yathin
 theme: jekyll-theme-cayman
 
-gem "jekyll-theme-cayman"
