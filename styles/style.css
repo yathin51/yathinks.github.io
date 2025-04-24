@@ -33,6 +33,8 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    position: relative;
+    /* Enable positioning for child elements */
 }
 
 header h1 {
@@ -206,4 +208,22 @@ section,
 nav {
     flex: 0 0 auto;
     /* Content takes up only as much space as needed */
+}
+
+/* Profile Image Styling */
+.profile-image {
+    position: absolute;
+    /* Position the image within the header */
+    top: 10px;
+    /* Distance from the top of the header */
+    right: 10px;
+    /* Distance from the right of the header */
+    width: 100px;
+    /* Set the width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 50%;
+    /* Make the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
 }
