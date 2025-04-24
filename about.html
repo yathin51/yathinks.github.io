@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Yathin">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Yathin" />
     <title>About Me</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <script>
-        // JavaScript to show a pop-up message before redirecting
-        function confirmRedirect(event, url) {
-            event.preventDefault(); // Prevent the default link behavior
-            const userConfirmed = confirm("You are about to leave this page. Do you want to continue?");
-            if (userConfirmed) {
-                window.location.href = url; // Redirect to the URL if confirmed
-            }
-        }
-    </script>
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>About Me</h1>
+      <h1>About Me</h1>
     </header>
     <section>
-        <p>I am a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development and have experience with various modern web technologies.</p>
-        <p>Check out my <a href="projects.html" onclick="confirmRedirect(event, 'projects.html')">Projects</a> or <a href="contact.html" onclick="confirmRedirect(event, 'contact.html')">Contact Me</a>.</p>
+      <p>
+        I am a web developer with a passion for creating beautiful and
+        functional websites. I specialize in front-end development and have
+        experience with various modern web technologies.
+      </p>
+      <p>
+        Check out my <a href="projects.html">Projects</a> or
+        <a href="contact.html">Contact Me</a>.
+      </p>
     </section>
     <footer>
-        <p>&copy; 2025 Yathin™. All rights reserved.</p>
+      <p>&copy; 2025 Yathin™. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>

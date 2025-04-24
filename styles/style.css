@@ -120,3 +120,60 @@ nav a:hover {
   height: 40px; /* Set the height of the icon */
   margin: 10px; /* Add some spacing around the icon */
 }
+
+/* Skills Section Styling */
+.skills-section {
+    border: 2px solid #004080;
+    /* Blue border */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Add padding inside the section */
+    margin: 20px 0;
+    /* Add spacing between sections */
+    background-color: #f9f9f9;
+    /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+/* Skills List Styling */
+.skills-list {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-evenly; /* Distribute items evenly */
+  gap: 20px; /* Add spacing between items */
+}
+
+.skills-list div {
+  flex: 1 1 calc(25% - 20px); /* Each item takes up 25% of the row minus the gap */
+  max-width: calc(25% - 20px); /* Ensure items don't exceed 25% width */
+  text-align: center; /* Center-align the content */
+  box-sizing: border-box; /* Include padding and border in width/height */
+}
+
+/* Contact Icons Styling */
+.contact-icons {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: center;
+    /* Center the icons horizontally */
+    align-items: center;
+    /* Align icons vertically */
+    gap: 20px;
+    /* Add spacing between icons */
+}
+
+.contact-icon {
+    width: 40px;
+    /* Set the width of the icon */
+    height: 40px;
+    /* Set the height of the icon */
+    transition: transform 0.2s ease;
+    /* Add a hover effect */
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge the icon on hover */
+}
