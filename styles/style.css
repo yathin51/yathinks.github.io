@@ -227,3 +227,18 @@ nav {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* Add a subtle shadow */
 }
+
+/* Certification Section Styling */
+section>div {
+    margin-bottom: 20px;
+    /* Add spacing between certifications */
+    padding-bottom: 10px;
+    /* Add padding at the bottom */
+    border-bottom: 1px solid #ccc;
+    /* Add a light gray line as a separator */
+}
+
+section>div:last-child {
+    border-bottom: none;
+    /* Remove the line for the last certification */
+}
