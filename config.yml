@@ -1,4 +1,6 @@
 title: Yathin's World
 description: A blog about technology, travel, and life experiences.
 author: Yathin
-theme: minima
+theme: jekyll-theme-cayman
+
+gem "jekyll-theme-cayman"
